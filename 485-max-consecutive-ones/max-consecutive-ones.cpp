@@ -7,7 +7,7 @@ public:
                 sum++;
                 count=max(sum,count);
             }
-            if(nums[i]!=1){
+            if(nums[i]==0){
                 sum=0;
             }
         }
